@@ -121,7 +121,7 @@ For example, the CSV file `csv/example.csv` looks like:
 "DNK","Denmark"
 ```
 
-Let's translate the country names to French using ISO alpha-3 country codes and `json/countries.json`:
+Let's translate country names to French using ISO alpha-3 country codes and `json/countries.json`:
 
 ```python
 from translatecsv import load_reference, translate_csv
